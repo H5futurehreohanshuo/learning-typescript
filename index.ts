@@ -1,5 +1,13 @@
-// let list: Array<number> = [1, 2, 3];
+interface person {
+  name: string;
+  age: number;
+}
 
-enum Color {Red, Green, Blue}
+let tom: person = {
+  name: 'Tom',
+  age: 25
+};
 
-let c: Color = Color.Green;
+if (tom.age == 25) {
+  console.log(tom.name + 'is 25 years old.');
+}

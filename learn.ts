@@ -137,4 +137,9 @@ handleEvent(document.getElementById('world'), 'dbclick'); */
 let directions = [Directions.Up, Directions.Down, Directions.Left, Directions.Right]; */
 
 // 在 "const" 枚举声明中，成员初始化表达式必须是常数表达式
-const enum Color { Red, Green, Blue = "blue".length };
+// const enum Color { Red, Green, Blue = "blue".length };
+
+interface person {
+  name: string,
+  age: number
+}
